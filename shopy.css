@@ -46,40 +46,96 @@ ul li a{
     color: white;
     font-size: 20px;
 }
-.img1
-{
+.g{
     display: flex;
-    background-position-x: right;
-    transition: all 0.5s ease;
-}
-.img1:hover{
-    background-position-x: center;
-    
-
 }
 
-.left 
+
+
+
+.green
 {
-    background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom1.jpg" );
-    margin-left: 250px;
-    margin-top: 50px;
-    height: 300px;
-    padding: 100px;
-     
-    color: white;
-    text-align: center;
-  
+   background-color: rgb(39, 228, 165)  ;
+   
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+    
+}
+
+.g .green .container{
+    background-color: azure;
+    margin-top: 60px;
     
    
-    
 }
-.right 
-{
-    background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/bottom2.jpg");
-    margin-left: 30px;
-    margin-top: 50px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.co{
+    display: flex;
+}
+
+.box{
     height: 300px;
-    padding: 100px;
-    color: white;
-    text-align: center;
+    width: 600px;
+    background-image: url("shop3.png");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+    margin-right: 40px;
+}
+.border{
+    border: 5px solid white;
+    opacity: 0;
+    transition: 1s;
+    height: 230px;
+    width: 530px;
+}
+
+.box:hover .border{
+          opacity: 1;
+          transform: translateX(20px);
+}
+
+
+.box1{
+    height: 300px;
+    width: 600px;
+    background-image: url("shop2.png");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    padding: 20px;
+    transition: 1s;
+}
+.border1{
+    border: 5px solid white;
+    opacity: 0;
+    transition: 1s;
+    height: 230px;
+    width: 530px;
+}
+.box1:hover .border1{
+          opacity: 1;
+          transform: translateX(20px);
+}
+.box:hover{
+    background-position: 20px;
+}
+.box1:hover{
+    background-position: 20px;
 }
