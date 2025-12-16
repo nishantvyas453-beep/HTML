@@ -381,6 +381,77 @@ ul li a{
 {
     background-attachment: fixed;
     background-image: url("https://nurimetin.github.io/eliteshoppy.github.io/images/banner3.jpg");
-    height: 650px;
+    height: 450px;
     width: 1550px;
+}
+
+
+
+
+
+
+
+
+.w{
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+ }
+
+
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding:60px;
+   
+    
+}
+
+.footer
+{
+     display: flex;
+    gap: 100px;
+}
+.footer1
+{
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+
+
+.icon
+{
+    font-size: 25px;
+}
+
+.footer2
+{
+    list-style: none;
+   
+}
+.footer2 a{
+    text-decoration: none;
+    color:rgb(111, 110, 110);
+  
+  
+}
+.footer2 li{
+    margin-top: 18px;
+}
+
+
+.i2{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer4
+{
+    display: flex;
+    margin-top: 80px;
 }
